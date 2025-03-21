@@ -1,5 +1,0 @@
-cudeflores= input("Qual seu nome seu demonio?")
-rolamurcha= input("{}, Qual sua o dia que você nasceu seu merda?".format(cudeflores))
-pererecapodre= input("{}, Qual o mês do seu nascimento?".format(cudeflores))
-grelocomverme= input("{},Qual o ano que você  nasceu?".format(cudeflores))
-print("Olá {}, você nasceu em {} de {} de {}".format(cudeflores, rolamurcha, pererecapodre, grelocomverme))
