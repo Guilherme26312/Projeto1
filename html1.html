@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Efeito Visual com Javascript</title>
+    <style>
+        #caixa {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            opacity:1;
+            transition: opacity 0.5s;
+        }
+    </style>
+        </head>
+        <body>
+            <div id="caixa"></div>
+            <button onclick="desvanecer()">Desvanecer</button>
+
+            <script>
+                function desvanecer(){
+                    document.getElementById("caixa").style.opacity= 0;
+                }
+            </script>
+            <img src="https://onepop.com.br/wp-content/uploads/2024/02/4146-1-Copy-4.jpg" alt="">
+
+            </body>
+</html>
