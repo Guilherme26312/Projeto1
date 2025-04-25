@@ -1,7 +1,7 @@
 import os
-restaurantes=[{"nome": "Safados Picantes", "categoria": "Apimentados", "ativo":False},
-              {"nome": "Tempero Tarado", "categoria": "Salgado", "ativo":True}, 
-              {"nome": "Cuzinh0 Doce", "categoria": "Doces", "ativo":False}
+restaurantes=[{"nome": "Picantes", "categoria": "Apimentados", "ativo":False},
+              {"nome": "Delicias Salgadas", "categoria": "Salgado", "ativo":True}, 
+              {"nome": "Delicias Doces", "categoria": "Doces", "ativo":False}
               ]
 
 # Todos os Def, são onde está definindo cada variavel.
@@ -9,12 +9,12 @@ restaurantes=[{"nome": "Safados Picantes", "categoria": "Apimentados", "ativo":F
 # Nome do programa.
 def exibir_nome_do_programa():
     """Essa função exibe o nome do Programa."""
-    print(" 😏𝓢𝓪𝓯𝓪𝓭𝓲𝓷𝓱𝓸𝓼 𝓖𝓸𝓵𝓾𝓼𝓸𝓼😏" )
+    print("𝓒𝓸𝓶𝓲𝓭𝓮𝔁" )
 
 # Opções:
 def exibir_opções():
     """Essa função  exibir as opção para o usuário."""
-    print("𝙊 𝙧𝙚𝙨𝙩𝙖𝙪𝙧𝙖𝙣𝙩𝙚 𝙢𝙖𝙞𝙨 𝙥𝙞𝙘𝙖𝙣𝙩𝙚 𝙙𝙚 𝙈𝙞𝙣𝙖𝙨❗\n")
+    print("A Melhor Rede de Restaurantes de toda Minas Gerais\n")
     print("1 - Cadastro")
     print("2 - Lista Restaurante")
     print("3 - Alternar estado do Restaurante")
@@ -38,8 +38,8 @@ def menu_principal():
 def cadastrar_novo_restaurante():
     """Essa função é responsável por Cadastrar um novo Restaurante."""
     os.system("cls")
-    subtitulo("Cadastro de Novos Restaurantes Safadinhos😏")
-    nome_do_restaurante = input("Digite o nome do Restaurante Safadinho que você deseja cadastrar.")
+    subtitulo("Cadastro de Novos Restaurantes")
+    nome_do_restaurante = input("Digite o nome do Restaurante que você deseja cadastrar.")
     categoria = input(f"Digite o nome da categoria do restaurante {nome_do_restaurante}: ")
     dados_do_restaurante ={"nome": nome_do_restaurante, "categoria": categoria, "ativo": False}
     restaurantes.append(dados_do_restaurante)
