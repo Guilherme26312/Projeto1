@@ -12,7 +12,6 @@ def exibir_nome_do_programa():
     print(" 😏𝓢𝓪𝓯𝓪𝓭𝓲𝓷𝓱𝓸𝓼 𝓖𝓸𝓵𝓾𝓼𝓸𝓼😏" )
 
 # Opções:
-  
 def exibir_opções():
     """Essa função  exibir as opção para o usuário."""
     print("𝙊 𝙧𝙚𝙨𝙩𝙖𝙪𝙧𝙖𝙣𝙩𝙚 𝙢𝙖𝙞𝙨 𝙥𝙞𝙘𝙖𝙣𝙩𝙚 𝙙𝙚 𝙈𝙞𝙣𝙖𝙨❗\n")
@@ -21,8 +20,7 @@ def exibir_opções():
     print("3 - Alternar estado do Restaurante")
     print("4 - Sair")
 
-# Cada Def tem uma função:
-  
+# Cada  Def tem uma função:  
 def subtitulo(texto):
     """Essa função é responsável por exibir os subtítulos."""
     os.system("cls")
@@ -89,7 +87,7 @@ def opcao_invalida():
 def encerrando_programa():
     """Essa função é responsável por encerrar o programa."""
     os.system('cls')
-    print('Encerrando o programa')
+    print('Encerrando o programa')\
 # Escolher Opções do programa.
 
 def escolher_opcao():
